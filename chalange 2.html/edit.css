@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: black;
+  font-family: sans-serif;
+  line-height:1.4;
+  margin-left: 230px ;
+  margin-right: 230px ;
+}
+
+.container{
+  /* background-color: red; */
+}
+
+.product-img{
+  float: left;
+  margin-right: 40px;
+}
+
+/* product  */
+
+.less{
+  border: 4px solid black;
+  width: 825px ;
+  margin: 50px auto ;
+  position: relative;
+}
+.school{
+  text-align: center;
+  text-transform: uppercase;
+  font-size:22px;
+  background-color: #f7f7f7;
+  padding: 40px ;
+}
+
+ /* Adding Sale Logo On The Top */
+
+.sale{
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 7px 15px ;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -34px;
+} 
+
+/* product-information */
+
+.product-info{
+  width: 243px;
+  float: left;
+  margin-right:40px;
+  margin-top: 20px;
+}
+
+.price{
+  font-size:24px;
+  float: left;
+}
+ 
+.para{
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.reacted{
+  font-size:12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:#777;
+  margin-bottom: 20px ;
+  float: right;
+  margin-top: 8px;
+}
+
+/* product-Details */
+
+.product-details{
+width: 243px;
+float: left;
+margin-top: 20px;
+}
+
+.p-details{
+  text-transform: uppercase;
+  font-size: 16px ;
+  margin-bottom: 15px ;
+}
+
+.list{
+  list-style:square;
+  margin-left: 20px  ;
+}
+
+.list li{
+  margin-bottom: 7px;
+}
+.more:link, .more:visited{
+  color: black;
+  display: inline-block;
+  margin: 20px;
+}
+
+.more:hover, .more:active{
+  text-decoration: none;
+} 
+
+/* a:link{
+  color: black;
+}
+a:visited{
+color: black;
+} */
+
+.main{
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px;
+  border: none ;
+  cursor:pointer;
+  width: 100%;
+  border: 4px solid black;
+}
+
+
+.main:hover{
+  color:black ;
+  background-color:white;
+}
+
+.color{
+  background-color: #000;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 8px;
+}
+
+.color-red{
+  background-color: #ff0000;}
+.color-blue{
+background-color: #0000ff;}
+.color-green{
+background-color: #008000;}
+.color-brown{
+background-color: #a52a2a;}
+.color-yellow{
+background-color: #ffff00;}
+
